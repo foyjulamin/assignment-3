@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotline Directory — Assignment 005</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <img src="images/logo.png" alt="w">
+            <p>Emergency <br> service</p>
+        </div>
+        <div class="stats">
+            <div id="hearts">
+                <p id="heartsCount">0</p>
+                <img src="/images/heart.png" alt="">
+            </div>
+            <div id="coins">
+                <p id="coinCount">0</p>
+                <img src="/images/coin.png" alt="">
+            </div>
+            <div id="copies"> 0 Copy</div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-logo">
+            <img src="./images/logo-dark.png" alt="">
+        </div>
+        <h1 class="hero-title">জরুরি সেবা ডিরেক্টরি</h1>
+        <p class="hero-slogan">Government Emergency Services at Your Fingertip – A Project by Government of the People’s
+            Republic of Bangladesh</p>
+    </section>
+
+    <main class="container">
+        <section id="cards" class="card-grid"></section>
+
+        <aside class="sidebar">
+
+            <div class="history">
+                <div>
+                    <div>
+                        <img src="./images/clock.png" alt="">
+                        <h2> Call History</h2>
+                    </div>
+                    <div>
+                        <button id="clear-history">Clear History</button>
+                    </div>
+                </div>
+                <ul id="history-list"></ul>
+            </div>
+        </aside>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
