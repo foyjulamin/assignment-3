@@ -1,0 +1,66 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    line-height: 1.5;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-weight: 600;
+}
+
+.navbar .brand {
+    font-size: 1.25rem;
+    color: #006747;
+    font-weight: 900;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar .brand img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar .stats {
+    display: flex;
+    gap: 20px;
+    font-size: 1rem;
+}
+
+.navbar .stats div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    background: #ecfff0;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.navbar .stats #copies {
+    display: flex;
+    gap: 10px;
+    color: white;
+    background: #00a63e;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.navbar .stats img {
+    width: 20px;
+    height: 20px;
+}
