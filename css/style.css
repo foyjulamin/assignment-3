@@ -64,3 +64,28 @@ body {
     width: 20px;
     height: 20px;
 }
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(90deg, #013223, #006747, #013223);
+    text-align: center;
+    padding: 1.52rem 1rem;
+    color: white;
+}
+
+.hero-logo img {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    width: 80px;
+}
+
+.hero-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.hero-slogan {
+    font-size: 1rem;
+    opacity: 0.9;
+}
